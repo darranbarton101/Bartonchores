@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-mist text-slate-900;
+}
+
+input, select, textarea {
+  @apply rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-slate-400 focus:outline-none;
+}
+
+button {
+  @apply rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:bg-slate-400;
+}
+
+.card {
+  @apply rounded-2xl bg-white p-4 shadow-sm;
+}
